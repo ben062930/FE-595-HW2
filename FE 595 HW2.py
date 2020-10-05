@@ -23,7 +23,7 @@ def hw2():
                 f.write(name.text)
                 f.write('\n')
                 for item in range(0,len(items)):
-                    if items[item].text[0]=='P':
+                    if items[item].text[0]=='P':# what if other words of which first letter is "P"?
                         purpose = items[item]
                         f.write(purpose.text)
                         f.write('\n')
